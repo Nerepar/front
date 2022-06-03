@@ -26,41 +26,96 @@
     /*overflow: hidden;*/
 /*}*/
 
-.Block1 {
+/*.Block1 {*/
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+    /*background: palegreen;*/
+    /*border: 2px solid black;*/
+    /*width: 200px;*/
+/*}*/
+
+/*.Block2 {*/
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+    /*background: green;*/
+    /*border: 2px solid black;*/
+    /*width: 100px;*/
+/*}*/
+
+/*.Block3 {*/
+    /*margin-left: 50px;*/
+    /*padding: 10px;*/
+    /*background: yellow;*/
+        /*width: 100px;*/
+/*}*/
+
+/*.Block4 {*/
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+    /*background: blue;*/
+    /*border: 2px solid black;*/
+    /*width: 100px;*/
+/*}*/
+
+/*.Block5 {*/
+    /*margin-left: 30px;*/
+    /*padding: 10px;*/
+    /*background: orange;*/
+    /*border: 2px solid black;*/
+    /*width: 100px;*/
+/*}*/
+
+/*.grid-children {*/
+    /*margin: 30px;*/
+    /*padding: 30px;*/
+    /*border: 1px solid black;*/
+/*}*/
+
+/*.grid-temlate {*/
+    /*display: grid;*/
+    /*grid-template-columns: 40% repeat(7, 30%);*/
+    /*grid-template-rows: repeat(2, 40%);*/
+/*}*/
+
+/*.grid-children:nth-child(2n) {*/
+    /*background: yellow;*/
+    /*}*/
+
+/*.grid-children:nth-child(2n + 1) {*/
+    /*background: green;*/
+/*}*/
+
+/*.grid-children-3 {*/
+    /*grid-column-start: 2;*/
+    /*grid-column-end: 4;*/
+/*}*/
+
+/*.flex-parent {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+
+    /*}*/
+
+/*.flex-children:nth-child(2n) {*/
+    /*height: 30px;*/
+    /*background: gray;*/
+    /*width: 20px;*/
+    /*}*/
+
+/*.flex-children:nth-child(2n + 1) {*/
+    /*height: 50px;*/
+    /*background: aqua;*/
+    /*width: 30px;*/
+/*}*/
+
+.flex-children {
     margin: 10px;
+    border: 1px solid black;
     padding: 10px;
-    background: palegreen;
-    border: 2px solid black;
-    width: 200px;
 }
 
-.Block2 {
-    margin: 10px;
-    padding: 10px;
-    background: green;
-    border: 2px solid black;
-    width: 100px;
-}
-
-.Block3 {
-    margin-left: 50px;
-    padding: 10px;
-    background: yellow;
-        width: 100px;
-}
-
-.Block4 {
-    margin: 10px;
-    padding: 10px;
-    background: blue;
-    border: 2px solid black;
-    width: 100px;
-}
-
-.Block5 {
-    margin-left: 30px;
-    padding: 10px;
-    background: orange;
-    border: 2px solid black;
-    width: 100px;
+.flex-parent {
+    display: flex;
+    width: 400px;
+    border: 1px solid black;
 }
